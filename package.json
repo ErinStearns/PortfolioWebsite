@@ -1,0 +1,23 @@
+{
+  "name": "portfoliowebsite-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "ghpages -d portfoliowebsite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErinStearns/PortfolioWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErinStearns/PortfolioWebsite/issues"
+  },
+  "homepage": "https://erinstearns.github.io/PortfolioWebsite/",
+  "dependencies": {
+    "ghpages": "^0.0.10"
+  }
+}
