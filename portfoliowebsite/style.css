@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  background-color: white;
+  font-size: 22px;
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navbar p {
+  font-weight: bold;
+}
+
+#about img {
+  width: 300px;
+  height: auto;
+  float: right;
+  padding: 25px;
+}
+
+.skillsets {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.listskills {
+  padding: 15px;
+  flex-basis: 350px;
+}
+
+.listskills li {
+    line-height: 35px;
+}
+
+#contact {
+    text-align: center;
+    padding-bottom: 70px;
+
+}
+
+#contact p {
+    line-height: 10px;
+}
+
+

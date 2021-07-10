@@ -1,68 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("index.html"); 
+});
+</script> 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erin Stearns Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <header>
+    <header><a href="#header"></a>
         <h1>Erin Stearns Portfolio</h1>
         <div class="navbar">
             <p><a href="#about">About Me</a></p>
             <p><a href="#projects">Projects</a></p>
             <p><a href="#skills">Skills</a></p>
-            <p><a href="#contact">Contact Me</a></p>
+            <p><a href="./contact.html">Contact Me</a></p>
         </div>
     </header>
     <div class="main">
         <div id="about">
             <h2>About Me</h2>
-                <p>
+                <img src="https://scontent.ftpa1-1.fna.fbcdn.net/v/t1.6435-9/69537907_2263300330463261_9180680414119854080_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=_Yd5R4D3uE0AX8QOCbU&_nc_ht=scontent.ftpa1-1.fna&oh=def280d85f5506435ce5fedb86b288ea&oe=60EE9238" />
+                <p style="text-indent: 40px;">
                     Hi there! I'm Erin and I'm a junior software engineer based out of 
                     Tampa, FL. I am the founder of Bootiful Bidet and I am currently 
                     studying software engineering in hopes to venture into the startup 
-                    world as a front end engineer.<br> I am a self-taught engineer with 
-                    a background in business management. After starting my own business, 
-                    I left my job in the corporate world to pursue a career I was passionate about.<br>
+                    world as a front end engineer.</p>
+                <br>
+                <p style="text-indent: 40px;">
+                    I am a self-taught engineer with a background in business management. After starting my own business, 
+                    I left my job in the corporate world to pursue a career I was passionate about.
+                </p>
+                <br>
+                <p style="text-indent: 40px;">
                     In my free time I like to run, practice yoga, cook and listen to podcasts.</p>
         </div>
         <hr style= "border-top: dotted 4px; width: 90%;" />
 
         <div id="projects">
             <h2>Projects</h2>
-            <ul>
-                <li>Tea Cozy</li>
-                <li>Anchorly</li>
-                <l1>Bootifulbidet.com</l1>
-            </ul>
-        </div>
-        <div id="skills">
-            <div class="hard">
-                <h3>Hard Skills</h3>
                 <ul>
-                    <li>HMTL5/CSS3</li>
-                    <li>Javascript</li>
-                    <li>MongoDB/ReactJS</li>
-                    <li>NodeJS</li>
-                    <li>Github/Github Pages</li>
-                    <li>VSCode</li>
+                    <li>Tea Cozy</li>
+                    <li>Anchorly</li>
+                    <li>Bootifulbidet.com</li>
                 </ul>
-                <h3>Soft Skills</h3>
-                    <ul>
-                        <li>Teamwork & collaboration</li>
-                        <li>Logical & analytical thinking</li>
-                        <li>Problem Solving</li>
-                        <li>Fast Learner/Adaptive</li>
-                    </ul>
-            </div>
         </div>
-        <div id="contact">
-            <h3>Contact Me</h3>
-            <h4>erinstearns822@icloud.com</h4>
-            <h4>603-933-3054</h4>
-            <h4><a href="https://www.linkedin.com/in/erinstearns822/">LinkedIn</a></h4>
+        <div id="skills">                  
+            <h2>Skills</h2>
+            <div class="skillsets">
+                <div class="listskills">
+                    <h3>Hard Skills</h3>
+                        <ul>
+                            <li>HMTL5/CSS3</li>
+                            <li>Javascript</li>
+                            <li>MongoDB/ReactJS</li>
+                            <li>NodeJS</li>
+                            <li>Github/Github Pages</li>
+                            <li>VSCode</li>
+                        </ul>
+                </div>
+                <div class="listskills">
+                    <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Teamwork & collaboration</li>
+                            <li>Logical & analytical thinking</li>
+                            <li>Problem Solving</li>
+                            <li>Fast Learner/Adaptive</li>
+                        </ul>
+                </div>
+            </div>
         </div>
     </div>
 </body>
